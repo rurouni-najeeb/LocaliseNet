@@ -2,7 +2,7 @@
 Object Localisation Using ConvNet
 
 ## About this project
-Object localisation is one of the important task of computer vision. Under this task, the aim is to classify the image and provide the coordinates of a rectangular box around the object of interest. To solve this problem, I used a simple Convolution Neural Network with two heads mounted upon the series of conv-maxpool layer. One of the heads performs the classification of the image according to the 20 categories found in the VOC 2007 dataset. The other head performs regression to compute the coordinates of the rectangular box. The ConvNet consists of two convolution layer with relu non linearity and max pool layers.
+Object localisation dwelves into some more complexities of computer vision. Under this task, the aim is to classify the image and also provide the coordinates of a rectangular box around the object of interest. To solve this problem, I used a simple Convolution Neural Network with two heads mounted upon the series of conv-maxpool layer. One of the heads performs the classification of the image according to the 20 categories found in the VOC 2007 dataset. The other head performs regression to compute the coordinates of the rectangular box. The ConvNet consists of two convolution layer with relu non linearity and max pool layers.
 
 ## About the dataset
 The goal of this dataset is to recognize objects from a number of visual object classes in realistic scenes (i.e. not pre-segmented objects. The twenty object classes that have been selected are:
@@ -16,8 +16,8 @@ The goal of this dataset is to recognize objects from a number of visual object 
 
 ## Tasks
 
-* Classification: For each of the twenty classes, predicting presence/absence of an example of that class in the test image.
-* Detection: Predicting the bounding box and label of each object from the twenty target classes in the test image.
+* **Classification**: For each of the twenty classes, predicting presence/absence of an example of that class in the test image.
+* **Detection**: Predicting the bounding box and label of each object from the twenty target classes in the test image.
 
 The image below illustrates the task in order
 
