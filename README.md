@@ -12,7 +12,7 @@ The goal of this dataset is to recognize objects from a number of visual object 
 * Vehicle: aeroplane, bicycle, boat, bus, car, motorbike, train
 * Indoor: bottle, chair, dining table, potted plant, sofa, tv/monitor
 
-![Pascal Dataset](images/pascal.jpg)
+![Pascal Dataset](images/voc.jpg)
 
 ## Tasks
 
@@ -37,7 +37,7 @@ VOC 2007 Dataset
 
 ## Running the code
 
-* Download from http://host.robots.ox.ac.uk/pascal/VOC/voc2007/
+* Download dataset from http://host.robots.ox.ac.uk/pascal/VOC/voc2007/
 * Clone the repository
 ```
 git clone https://github.com/najeeb97khan/LocaliseNet.git
@@ -67,7 +67,7 @@ As specified earlier the model consist of two layer convolution network with a r
 
 ## Author Information
 
-* **Najeeb Khan** - najeeb97khan.github.io
+* **Najeeb Khan** - http://najeeb97khan.github.io
 
 ## Shoutout to
 
